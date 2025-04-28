@@ -8,7 +8,7 @@
 
 **Accuracy:** 0.815
 
-![LDA Raw](docs/images/LDA_Raw_map.png)
+<img src="docs/images/LDA_Raw_map.png" alt="LDA Raw" width="350" height="auto">
 
 ![LDA Raw CM](docs/images/LDA_Raw_cm.png)
 
@@ -41,7 +41,7 @@ weighted avg      0.816     0.815     0.814     10249
 
 **Accuracy:** 0.752
 
-![PCA Raw](docs/images/PCA_Raw_map.png)
+<img src="docs/images/PCA_Raw_map.png" alt="PCA Raw" width="350" height="auto">
 
 ![PCA Raw CM](docs/images/PCA_Raw_cm.png)
 
@@ -56,7 +56,7 @@ precision    recall  f1-score   support
            6      0.918     0.956     0.937       730
            7      0.966     1.000     0.982        28
            8      0.977     0.998     0.988       478
-           9      0.923     0.600     0.727        20
+           9      0.923     0.350     0.727        20
           10      0.661     0.622     0.641       972
           11      0.661     0.809     0.728      2455
           12      0.551     0.425     0.480       593
@@ -74,7 +74,7 @@ weighted avg      0.751     0.752     0.747     10249
 
 **Accuracy:** 0.790
 
-![PCA+Shrinkage LDA](docs/images/PCA+Shrinkage_LDA_map.png)
+<img src="docs/images/PCA+Shrinkage_LDA_map.png" alt="PCA+Shrinkage LDA" width="350" height="auto">
 
 ![PCA+Shrinkage LDA CM](docs/images/PCA+Shrinkage_LDA_cm.png)
 
@@ -108,7 +108,7 @@ weighted avg      0.806     0.790     0.793     10249
 
 **Accuracy:** 0.822
 
-![LDA Strict-Neighbor](docs/images/LDA_Strict-Neighbor_map.png)
+<img src="docs/images/LDA_Strict-Neighbor_map.png" alt="LDA Strict-Neighbor" width="350" height="auto">
 
 ![LDA Strict-Neighbor CM](docs/images/LDA_Strict-Neighbor_cm.png)
 
@@ -141,7 +141,7 @@ weighted avg      0.823     0.822     0.821     10249
 
 **Accuracy:** 0.839
 
-![LDA 90% Border](docs/images/LDA_90_Border_map.png)
+<img src="docs/images/LDA_90_Border_map.png" alt="LDA 90% Border" width="350" height="auto">
 
 ![LDA 90% Border CM](docs/images/LDA_90_Border_cm.png)
 
@@ -175,7 +175,7 @@ weighted avg      0.850     0.839     0.843     10249
 
 **Accuracy:** 0.767
 
-![PCA 90% Border](docs/images/PCA_90_Border_map.png)
+<img src="docs/images/PCA_90_Border_map.png" alt="PCA 90% Border" width="350" height="auto">
 
 ![PCA 90% Border CM](docs/images/PCA_90_Border_cm.png)
 
@@ -191,7 +191,7 @@ precision    recall  f1-score   support
            6      0.926     0.959     0.942       730
            7      0.963     0.929     0.945        28
            8      0.979     0.992     0.985       478
-           9      0.923     0.600     0.727        20
+           9      0.923     0.350     0.727        20
           10      0.698     0.652     0.674       972
           11      0.680     0.845     0.754      2455
           12      0.574     0.391     0.465       593
@@ -209,7 +209,7 @@ weighted avg      0.776     0.767     0.765     10249
 
 **Accuracy:** 0.911
 
-![LDA Denoised](docs/images/LDA_Denoised_map.png)
+<img src="docs/images/LDA_Denoised_map.png" alt="LDA Denoised" width="350" height="auto">
 
 ![LDA Denoised CM](docs/images/LDA_Denoised_cm.png)
 
@@ -243,7 +243,7 @@ weighted avg      0.925     0.911     0.917     10249
 
 **Accuracy:** 0.944
 
-![PCA Denoised](docs/images/PCA_Denoised_map.png)
+<img src="docs/images/PCA_Denoised_map.png" alt="PCA Denoised" width="350" height="auto">
 
 ![PCA Denoised CM](docs/images/PCA_Denoised_cm.png)
 
