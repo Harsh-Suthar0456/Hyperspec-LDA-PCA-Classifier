@@ -141,9 +141,9 @@ weighted avg      0.823     0.822     0.821     10249
 
 **Accuracy:** 0.839
 
-![LDA 90% Border](docs/images/LDA_90%_Border_map.png)
+![LDA 90% Border](docs/images/LDA_90_Border_map.png)
 
-![LDA 90% Border CM](docs/images/LDA_90%_Border_cm.png)
+![LDA 90% Border CM](docs/images/LDA_90_Border_cm.png)
 
 ```
 precision    recall  f1-score   support
@@ -175,9 +175,9 @@ weighted avg      0.850     0.839     0.843     10249
 
 **Accuracy:** 0.767
 
-![PCA 90% Border](docs/images/PCA_90%_Border_map.png)
+![PCA 90% Border](docs/images/PCA_90_Border_map.png)
 
-![PCA 90% Border CM](docs/images/PCA_90%_Border_cm.png)
+![PCA 90% Border CM](docs/images/PCA_90_Border_cm.png)
 
 ```
 precision    recall  f1-score   support
