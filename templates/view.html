@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>View Results</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Load & View Results</h1>
+    {% if not images %}
+      <form action="/view" method="post" enctype="multipart/form-data">
+        <label>Results pickle:</label>
+        <input type="file" name="pickle_file" required>
+        <button type="submit">Load Results</button>
+      </form>
+    {% else %}
+      <h2>PCA + Logistic Regression</h2>
+      <img src="data:image/png;base64,{{ images['pca_cm'] }}" alt="PCA Confusion Matrix">
+      <p>Accuracy: {{ stats.pca.accuracy }}</p>
+      <!-- Add other maps/plots here similarly -->
+    {% endif %}
+  </div>
+</body>
+</html>
