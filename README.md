@@ -24,10 +24,13 @@ pip3 install requirements.txt
 ```bash
 python3 app.py
 ```
-4. This should runa  webpage on the port <href>http://127.0.0.1:5000</href>
-
+4. This should run a webpage on the port <href>http://127.0.0.1:5000</href>
+![First page initial](docs/images/front_page_initial.jpeg)
+5. On this page, you can upload your hyperspectral cube in .mat format along with the ground truth file. The files for the Indian Pines dataset ahs been provided on the repo, you could run that for sample
 ![First page](docs/images/first_page.jpeg)
+6. Run submit, this should start the processing for the files, and in 5-6 seconds, you shall be redirected to the results page.
 ![Full page](docs/images/full_page.jpeg)
+7. From there, you can view the plots, and can download the pickle file containing the prediction data, using which you can replot these later without reuploading the files.
 
 
 
