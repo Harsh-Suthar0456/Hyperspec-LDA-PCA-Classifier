@@ -13,8 +13,22 @@ Web Application based GUI to analyze the predictions from PCA and LDA for variou
 This generates a server on the port <href>http://127.0.0.1:5000</href> after it is run, where you can upload your files to get predictions and accuracy from both LDA and PCA.
 
 You can also get plots from any previous submissions by downloading the pickle file from the results page and reuploading it.
+
+### Running instructions for the GUI
+1. Clone this repo
+2. install the dependencies(all the libraries)
+```bash
+pip3 install requirements.txt
+```
+3. Run the app.py
+```bash
+python3 app.py
+```
+4. This should runa  webpage on the port <href>http://127.0.0.1:5000</href>
+
 ![First page](docs/images/first_page.jpeg)
 ![Full page](docs/images/full_page.jpeg)
+
 
 
 
