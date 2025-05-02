@@ -1,0 +1,9 @@
+Flask
+scikit-learn
+scipy
+numpy
+matplotlib
+seaborn
+scikit-image
+ipywidgets
+ipython
